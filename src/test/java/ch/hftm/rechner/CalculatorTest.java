@@ -15,7 +15,7 @@ public class CalculatorTest {
 
 	@Test
 	public void addPositiveIntegers() {
-		double result = calculator.add(5, 3);
+		double result = calculator.add(5, 2);
 		Assertions.assertEquals(7, result, 0);
 	}
 
